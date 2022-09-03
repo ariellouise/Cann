@@ -20,10 +20,10 @@
     04. Login Signup Modal CSS
     05. Slider/Hero CSS
     06. Page Heading/Title CSS
-    07. Job Search CSS
-    08. Jobs/Job List CSS
-    09. Job Single/Details CSS
-    10. Job Category CSS
+    07. event Search CSS
+    08. events/event List CSS
+    09. event Single/Details CSS
+    10. event Category CSS
     11. Company CSS
     12. Blog CSS
     13. Comment CSS
@@ -241,7 +241,7 @@ a:focus {
 
 a:hover {
   text-decoration: none;
-  color: #007bff;
+  color: #f99900;
 }
 
 button,
@@ -339,7 +339,7 @@ ul li + li {
 }
 
 .bg-primary {
-  background-color: #007bff !important;
+  background-color: #f99900 !important;
 }
 
 .bg-secondary {
@@ -347,7 +347,7 @@ ul li + li {
 }
 
 .bg-success {
-  background-color: #4caf50 !important;
+  background-color: #283a14 !important;
 }
 
 .bg-danger {
@@ -388,7 +388,7 @@ ul li + li {
 }
 
 .text-primary {
-  color: #007bff !important;
+  color: #f99900 !important;
 }
 
 .text-secondary {
@@ -717,7 +717,7 @@ ul li + li {
 
 .page-pagination ul li a:hover {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .page-pagination ul li.page-numbers {
@@ -730,7 +730,7 @@ ul li + li {
 
 .page-pagination ul li.active {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .page-pagination.center ul {
@@ -800,8 +800,8 @@ ul li + li {
 
 .slick-arrow:hover {
   color: #ffffff;
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #f99900;
+  background-color: #f99900;
 }
 
 .slick-dots {
@@ -836,7 +836,7 @@ ul li + li {
 }
 
 .slick-dots li.slick-active button {
-  border-color: #007bff;
+  border-color: #f99900;
 }
 
 /* Scroll Up */
@@ -847,7 +847,7 @@ ul li + li {
   height: 40px;
   text-align: center;
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 #scrollUp i {
@@ -1013,7 +1013,7 @@ select {
   position: absolute;
   bottom: 0;
   height: 6px;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .irs .irs-handle {
@@ -1023,7 +1023,7 @@ select {
   width: 20px;
   height: 20px;
   border-radius: 50px;
-  background-color: #007bff;
+  background-color: #f99900;
   -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
 }
@@ -1073,7 +1073,7 @@ select {
 .modal-header .close:hover {
   opacity: 1 !important;
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .modal-body {
@@ -1094,7 +1094,7 @@ select {
 
 .accordion .card .card-header .btn:hover {
   text-decoration: none;
-  color: #007bff;
+  color: #f99900;
 }
 
 /*----
@@ -1122,12 +1122,12 @@ select {
 
 .pagination .page-item .page-link:hover {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .pagination .page-item.active .page-link {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .pagination.pagination-center {
@@ -1155,7 +1155,7 @@ select {
 .blockquote-footer {
   font-size: 14px;
   margin-top: 5px;
-  color: #007bff;
+  color: #f99900;
 }
 
 /*----------------------------------------*/
@@ -1176,13 +1176,13 @@ select {
 .header.is-sticky {
   position: fixed;
   padding: 15px 0;
-  background-color: #4caf4f;
+  background-color: #283a14;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
 
 .header.menu-open {
-  background-color: #4caf4f;
+  background-color: #283a14;
   -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.2);
 }
@@ -1625,11 +1625,11 @@ body.offcanvas-open {
 }
 
 .offcanvas-menu nav ul li .menu-expand:hover i {
-  border-color: #007bff;
+  border-color: #f99900;
 }
 
 .offcanvas-menu nav ul li .menu-expand:hover i::before {
-  border-color: #007bff;
+  border-color: #f99900;
 }
 
 .offcanvas-menu nav ul li.active > .menu-expand i::before {
@@ -1680,8 +1680,8 @@ body.offcanvas-open {
 }
 
 .offcanvas-user a:hover {
-  border-color: #007bff;
-  background-color: #007bff;
+  border-color: #f99900;
+  background-color: #f99900;
 }
 
 .offcanvas-user a:focus {
@@ -1731,7 +1731,7 @@ body.offcanvas-open {
 
 .loginSignupNav li .nav-link.active {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 /* Login & Signup With Social */
@@ -1767,7 +1767,7 @@ body.offcanvas-open {
 
 .login-reg-social a:hover {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 /*----------------------------------------*/
@@ -1975,16 +1975,16 @@ body.offcanvas-open {
 }
 
 /*----------------------------------------*/
-/*  07. Job Search CSS
+/*  07. event Search CSS
 /*----------------------------------------*/
-/* Job Search Section */
-.job-search-section {
+/* event Search Section */
+.event-search-section {
   position: relative;
   z-index: 90;
 }
 
-/* Job Search Wrapper */
-.job-search-wrap {
+/* event Search Wrapper */
+.event-search-wrap {
   position: relative;
   margin-top: -83px;
   padding: 60px;
@@ -1994,37 +1994,37 @@ body.offcanvas-open {
 }
 
 @media only screen and (max-width: 479px) {
-  .job-search-wrap {
+  .event-search-wrap {
     padding: 30px;
   }
 }
 
-/* Job Search Form */
-.job-search-form .btn {
+/* event Search Form */
+.event-search-form .btn {
   display: block;
   width: 100%;
 }
 
-/* Job Search Form 2 */
-.job-search-form-2 input[type="text"] {
+/* event Search Form 2 */
+.event-search-form-2 input[type="text"] {
   padding: 15px 20px;
 }
 
-.job-search-form-2 select {
+.event-search-form-2 select {
   padding: 15px;
   padding-right: 40px;
 }
 
-.job-search-form-2 .btn {
+.event-search-form-2 .btn {
   display: block;
   width: 100%;
   padding: 15px 20px;
 }
 
 /*----------------------------------------*/
-/*  08. Jobs/Job List CSS
+/*  08. events/event List CSS
 /*----------------------------------------*/
-/* Job List Toolbar */
+/* event List Toolbar */
 .event-list-toolbar {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2062,12 +2062,12 @@ body.offcanvas-open {
   margin-left: 10px;
 }
 
-/* Job List Wrapper */
+/* event List Wrapper */
 .event-list-wrap {
   padding: 1px;
 }
 
-/* Job List */
+/* event List */
 .event-list {
   position: relative;
   z-index: 1;
@@ -2163,9 +2163,9 @@ body.offcanvas-open {
 }
 
 /*----------------------------------------*/
-/*  09. Job Single/Details CSS
+/*  09. event Single/Details CSS
 /*----------------------------------------*/
-.event-list-details .job-details-head {
+.event-list-details .event-details-head {
   position: relative;
   z-index: 1;
   -webkit-box-align: center;
@@ -2177,11 +2177,11 @@ body.offcanvas-open {
   border-bottom: 1px solid #ededed;
 }
 
-.event-list-details .job-details-head .salary-type {
+.event-list-details .event-details-head .salary-type {
   text-align: right;
 }
 
-.event-list-details .job-details-head .salary-type .salary-range {
+.event-list-details .event-details-head .salary-type .salary-range {
   font-weight: 600;
   line-height: 1;
   display: block;
@@ -2189,14 +2189,14 @@ body.offcanvas-open {
   color: #6b6b6b;
 }
 
-.event-list-details .job-details-head .salary-type .badge {
+.event-list-details .event-details-head .salary-type .badge {
   font-size: 13px;
   font-weight: 400;
   padding: 4px 10px 5px;
   border-radius: 0;
 }
 
-.event-list-details .job-details-head .content .meta {
+.event-list-details .event-details-head .content .meta {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -2210,25 +2210,25 @@ body.offcanvas-open {
   color: #6b6b6b;
 }
 
-.event-list-details .job-details-head .content .meta li {
+.event-list-details .event-details-head .content .meta li {
   margin-top: 0;
   margin-right: 20px;
 }
 
-.event-list-details .job-details-head .content .meta li:last-child {
+.event-list-details .event-details-head .content .meta li:last-child {
   margin-right: 0;
 }
 
-.event-list-details .job-details-head .content .meta li i {
+.event-list-details .event-details-head .content .meta li i {
   font-size: 16px;
   margin-right: 3px;
 }
 
 @media only screen and (max-width: 575px) {
-  .event-list-details .job-details-head .salary-type {
+  .event-list-details .event-details-head .salary-type {
     margin-left: auto;
   }
-  .event-list-details .job-details-head .content {
+  .event-list-details .event-details-head .content {
     -webkit-box-flex: 1;
     -webkit-flex: 1 0 100%;
     -ms-flex: 1 0 100%;
@@ -2238,26 +2238,26 @@ body.offcanvas-open {
 }
 
 @media only screen and (max-width: 479px) {
-  .event-list-details .job-details-head {
+  .event-list-details .event-details-head {
     padding: 20px 5px;
   }
 }
 
-.event-list-details .job-details-body ul {
+.event-list-details .event-details-body ul {
   padding-left: 25px;
 }
 
 /*----------------------------------------*/
-/*  10. Job Category CSS
+/*  10. event Category CSS
 /*----------------------------------------*/
-/* Job Category Slider */
-.job-category-slider .slick-list {
+/* event Category Slider */
+.event-category-slider .slick-list {
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-/* Job Category */
-.job-category {
+/* event Category */
+.event-category {
   display: -webkit-box !important;
   display: -webkit-flex !important;
   display: -ms-flexbox !important;
@@ -2277,13 +2277,13 @@ body.offcanvas-open {
   text-align: center;
 }
 
-.job-category .inner i {
+.event-category .inner i {
   font-size: 50px;
   line-height: 1;
   display: block;
 }
 
-.job-category .inner .title {
+.event-category .inner .title {
   font-size: 14px;
   font-weight: 600;
   margin-top: 20px;
@@ -2292,16 +2292,16 @@ body.offcanvas-open {
   color: inherit;
 }
 
-.job-category.slick-slide {
+.event-category.slick-slide {
   margin-left: 15px;
   margin-right: 15px;
 }
 
-[class*="bg-"]:not(.bg-warning).job-category {
+[class*="bg-"]:not(.bg-warning).event-category {
   color: #ffffff;
 }
 
-[class*="bg-warning"].job-category {
+[class*="bg-warning"].event-category {
   color: #333;
 }
 
@@ -2327,13 +2327,13 @@ body.offcanvas-open {
   transition: all 0.3s ease 0s;
 }
 
-.feature-company .open-job {
+.feature-company .open-event {
   display: block;
   color: #454545;
 }
 
 .feature-company:hover .title {
-  color: #007bff;
+  color: #f99900;
 }
 
 /* Company List Wrapper */
@@ -2366,7 +2366,7 @@ body.offcanvas-open {
   transition: all 0.3s ease 0s;
 }
 
-.company-list .open-job {
+.company-list .open-event {
   display: block;
   margin-bottom: 6px;
   color: #454545;
@@ -2389,7 +2389,7 @@ body.offcanvas-open {
 }
 
 .company-list:hover .title {
-  color: #007bff;
+  color: #f99900;
 }
 
 /*----------------------------------------*/
@@ -2465,7 +2465,7 @@ body.offcanvas-open {
 }
 
 .blog .content .read-more:hover {
-  color: #007bff;
+  color: #f99900;
 }
 
 .blog .content .blog-tags {
@@ -2566,7 +2566,7 @@ body.offcanvas-open {
 
 .blog .content .blog-share ul li a:hover {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .blog.blog-single .content .title {
@@ -2594,11 +2594,11 @@ body.offcanvas-open {
 }
 
 .blog-navigation li a:hover {
-  color: #007bff;
+  color: #f99900;
 }
 
 .blog-navigation li a:hover::before {
-  color: #007bff;
+  color: #f99900;
 }
 
 .blog-navigation li a::before {
@@ -2727,7 +2727,7 @@ body.offcanvas-open {
 .comment .content .reply {
   line-height: 1;
   text-transform: capitalize;
-  color: #007bff;
+  color: #f99900;
 }
 
 .comment .content .reply:hover {
@@ -2766,13 +2766,13 @@ body.offcanvas-open {
   margin-bottom: 20px;
 }
 
-/* Sidebar Job Location Map */
-.job-location-map {
+/* Sidebar event Location Map */
+.event-location-map {
   width: 100%;
   height: 300px;
 }
 
-.job-location-map iframe {
+.event-location-map iframe {
   width: 100%;
   height: 100%;
   display: block;
@@ -2878,7 +2878,7 @@ body.offcanvas-open {
 }
 
 .sidebar-list.sidebar-list-comment li a:hover {
-  color: #007bff;
+  color: #f99900;
 }
 
 /* Sidebar Post */
@@ -3039,7 +3039,7 @@ body.offcanvas-open {
 
 .team .content .inner .social a:hover {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 .team:hover img {
@@ -3130,7 +3130,7 @@ body.offcanvas-open {
 }
 
 .pricing .inner .foot .btn:hover {
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 /*----------------------------------------*/
@@ -3167,7 +3167,7 @@ body.offcanvas-open {
 }
 
 .testimonial-slider .slick-arrow:hover {
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 /* Testimonial */
@@ -3336,7 +3336,7 @@ body.offcanvas-open {
 
 .contact-social a:hover {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 /*----------------------------------------*/
@@ -3418,7 +3418,7 @@ body.offcanvas-open {
 }
 
 .footer-socail li a:hover {
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 /* Footer Link */
@@ -3461,7 +3461,7 @@ body.offcanvas-open {
 
 .footer-widget-newsletter form button:hover {
   color: #ffffff;
-  background-color: #007bff;
+  background-color: #f99900;
 }
 
 /* Footer Bottom Section */
@@ -3476,7 +3476,7 @@ body.offcanvas-open {
 }
 
 .footer-copyright a {
-  color: #007bff;
+  color: #f99900;
 }
 
 .footer-copyright a:hover {
