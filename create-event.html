@@ -41,11 +41,13 @@
           <!-- Header Logo Start -->
           <div class="col">
             <div class="header-logo">
-              <a href="index.html"
-                ><img
+              <a href="index.html">
+                <img
                   src="assets/images/logo/Transparent-Image.png"
                   alt="Site Logo"
-              /></a>
+                  class="logo"
+                />
+              </a>
             </div>
           </div>
           <!-- Header Logo End -->
@@ -102,7 +104,7 @@
         </div>
       </div>
     </header>
-
+    <!--NEEDS DOMAIN TO SET UP LOGIN 0Auth-->
     <!--Offcanvas Section Start-->
     <div id="offcanvas" class="offcanvas-section">
       <button class="offcanvas-close" data-bs-target="#offcanvas">
@@ -352,7 +354,7 @@
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="index.html">Home</a></li>
             <li class="breadcrumb-item">
-              <a href="company-list.html">Companies</a>
+              <a href="event-list.html">Events</a>
             </li>
             <li class="breadcrumb-item active">Create event</li>
           </ol>
@@ -369,15 +371,15 @@
             <form action="#">
               <div class="row mb-n3">
                 <div class="col-md-6 col-12 mb-3">
-                  <label for="eventTitle">event Title</label>
+                  <label for="eventTitle">Event Title</label>
                   <input
                     type="text"
                     id="eventTitle"
-                    placeholder="e.g. web design"
+                    placeholder="e.g. BYOB Brunch"
                   />
                 </div>
                 <div class="col-md-6 col-12 mb-3">
-                  <label for="applicationDeadline">Application Deadline</label>
+                  <label for="applicationDeadline">Date of Event</label>
                   <input
                     type="text"
                     id="applicationDeadline"
@@ -385,51 +387,38 @@
                   />
                 </div>
                 <div class="col-md-6 col-12 mb-3">
-                  <label for="eventType">event Type</label>
+                  <label for="eventType">Event Type</label>
                   <select id="eventType">
-                    <option value="type1">Full Time</option>
-                    <option value="type2">Part Time</option>
-                    <option value="type3">Freelance</option>
+                    <option value="type1">Family Friendly</option>
+                    <option value="type2">Ages 21+</option>
+                    <option value="type3">Corporate Event</option>
                   </select>
                 </div>
                 <div class="col-md-6 col-12 mb-3">
-                  <label for="eventCategory">event Category</label>
+                  <label for="eventCategory">Event Category</label>
                   <select id="eventCategory">
-                    <option value="type1">Web Design</option>
-                    <option value="type2">Ui Ux Design</option>
-                    <option value="type3">WordPress Developer</option>
-                    <option value="type4">React Developer</option>
+                    <option value="type1">Food</option>
+                    <option value="type2">Education</option>
+                    <option value="type3">Seminar</option>
+                    <option value="type4">Family Friendly</option>
+                    <option value="type5">BYOB</option>
                   </select>
                 </div>
                 <div class="col-md-6 col-12 mb-3">
-                  <label for="salaryRange">Salary Range</label>
-                  <input type="text" id="salaryRange" placeholder="5k-8k" />
+                  <label for="salaryRange">Ticket Price Per Ticket</label>
+                  <input type="text" id="salaryRange" placeholder="$10" />
                 </div>
                 <div class="col-md-6 col-12 mb-3">
-                  <label for="eventGender">Gender</label>
+                  <label for="eventGender">Where To Get Tickets</label>
                   <select id="eventGender">
-                    <option value="type1">Any</option>
-                    <option value="type2">Male</option>
-                    <option value="type3">Female</option>
+                    <option value="type1">Call</option>
+                    <option value="type2">Website</option>
+                    <option value="type3">At The Door</option>
                   </select>
                 </div>
-                <div class="col-md-6 col-12 mb-3">
-                  <label for="eventExperience">Experience</label>
-                  <select id="eventExperience">
-                    <option value="type1">1 Year to 2 Year</option>
-                    <option value="type2">2 Year to 3 Year</option>
-                    <option value="type3">3 Year to 4 Year</option>
-                    <option value="type4">4 Year to 5 Year</option>
-                  </select>
-                </div>
-                <div class="col-md-6 col-12 mb-3">
-                  <label for="eventEducation">Education</label>
-                  <select id="eventEducation">
-                    <option>Postdoc</option>
-                    <option>Ph.D.</option>
-                    <option>Master</option>
-                    <option>Bachelor</option>
-                  </select>
+                <div class="col-12 mb-3">
+                  <label for="eventExperience">Location</label>
+                  <textarea id="eventDescription" rows="1"></textarea>
                 </div>
                 <div class="col-12 mb-3">
                   <label for="eventDescription">Description</label>
