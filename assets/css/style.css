@@ -2096,11 +2096,11 @@ body.offcanvas-open {
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.15);
 }
 
-.event-list .salary-type {
+.event-list .ticket-type {
   text-align: right;
 }
 
-.event-list .salary-type .salary-range {
+.event-list .ticket-type .ticket-price {
   font-weight: 600;
   line-height: 1;
   display: block;
@@ -2108,7 +2108,7 @@ body.offcanvas-open {
   color: #6b6b6b;
 }
 
-.event-list .salary-type .badge {
+.event-list .ticket-type .badge {
   font-size: 13px;
   font-weight: 400;
   padding: 4px 10px 5px;
@@ -2144,7 +2144,7 @@ body.offcanvas-open {
 }
 
 @media only screen and (max-width: 575px) {
-  .event-list .salary-type {
+  .event-list .ticket-type {
     margin-left: auto;
   }
   .event-list .content {
@@ -2177,11 +2177,11 @@ body.offcanvas-open {
   border-bottom: 1px solid #ededed;
 }
 
-.event-list-details .event-details-head .salary-type {
+.event-list-details .event-details-head .ticket-type {
   text-align: right;
 }
 
-.event-list-details .event-details-head .salary-type .salary-range {
+.event-list-details .event-details-head .ticket-type .ticket-price {
   font-weight: 600;
   line-height: 1;
   display: block;
@@ -2189,7 +2189,7 @@ body.offcanvas-open {
   color: #6b6b6b;
 }
 
-.event-list-details .event-details-head .salary-type .badge {
+.event-list-details .event-details-head .ticket-type .badge {
   font-size: 13px;
   font-weight: 400;
   padding: 4px 10px 5px;
@@ -2225,7 +2225,7 @@ body.offcanvas-open {
 }
 
 @media only screen and (max-width: 575px) {
-  .event-list-details .event-details-head .salary-type {
+  .event-list-details .event-details-head .ticket-type {
     margin-left: auto;
   }
   .event-list-details .event-details-head .content {

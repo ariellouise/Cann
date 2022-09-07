@@ -13,10 +13,10 @@
     & .company-logo {
     }
 
-    & .salary-type {
+    & .ticket-type {
       text-align: right;
 
-      & .salary-range {
+      & .ticket-price {
         font-weight: 600;
         line-height: 1;
 
@@ -71,7 +71,7 @@
 
     // Responsive
     @media #{$small-mobile} {
-      & .salary-type {
+      & .ticket-type {
         margin-left: auto;
       }
 

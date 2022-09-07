@@ -1,0 +1,105 @@
+[
+  {
+    "id": "1",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "description": "This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be. I wonder How much Kody Brown now has to pay in child support for Christine alone, and if he pays for Meri, too. Weird God complex for someone who quotes the bible so often. How many tuna do you think they put in per can? Like, is it just one? or is it multiple tuna's in sections? Does one tuna give multiple cans and they go per fish? or like a batch process?",
+    "price": "$10",
+    "logo": "assets/images/companies/company-1.png",
+    "href": "http://ariellouise.me"
+  },
+  {
+    "id": "2",
+    "title": "This is another Event. This is number 2",
+    "tagline": "This is a subtitle or whatever",
+    "location": "437 Park Drive Manor Rome Ny",
+    "price": "$30",
+    "time": "1pm - 2pm",
+    "date": "Feb 1st, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+
+  {
+    "id": "3",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+  {
+    "id": "4",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+  {
+    "id": "5",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+  {
+    "id": "6",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+  {
+    "id": "7",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+  {
+    "id": "8",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+  {
+    "id": "9",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  },
+  {
+    "id": "10",
+    "title": "This is Your Event Title",
+    "tagline": "This is where you mini title goes",
+    "location": "Utica NY",
+    "price": "$10",
+    "time": "5pm - 8pm",
+    "date": "Feb 30th, 2022",
+    "logo": "assets/images/companies/company-1.png"
+  }
+]

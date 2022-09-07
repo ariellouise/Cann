@@ -405,7 +405,7 @@
       crossorigin="anonymous"
     ></script>
     <!-- Homepage Leaderboard -->
-    <ins
+    <!-- <ins
       class="adsbygoogle"
       style="display: inline-block; width: 728px; height: 90px"
       data-ad-client="ca-pub-1234567890123456"
@@ -413,7 +413,7 @@
     ></ins>
     <script>
       (adsbygoogle = window.adsbygoogle || []).push({});
-    </script>
+    </script> -->
 
     <!--Google Adsense End-->
 
@@ -426,7 +426,7 @@
         </div>
 
         <!-- event List Wrap Start -->
-        <div class="event-list-wrap">
+        <div class="event-list-wrap" id="event-list">
           <!-- event List Start -->
           <a href="event-single.html" class="event-list row">
             <div class="company-logo col-auto">
@@ -435,8 +435,8 @@
                 alt="Company Logo"
               />
             </div>
-            <div class="salary-type col-auto order-sm-3">
-              <span class="salary-range">$$$$Ticket Price</span>
+            <div class="ticket-type col-auto order-sm-3">
+              <span class="ticket-price">$$</span>
               <span class="time of event">7PM - 9PM</span>
               <span class="badge bg-success applicationDeadline">Date</span>
             </div>
@@ -460,10 +460,10 @@
                 alt="Company Logo"
               />
             </div>
-            <div class="salary-type col-auto order-sm-3">
-              <span class="salary-range">$$$$Ticket Price</span>
+            <div class="ticket-type col-auto order-sm-3">
+              <span class="ticket-price">$$</span>
               <span class="time of event">7PM - 9PM</span>
-              <span class="badge bg-success">DATE NEED TO BE ADDED</span>
+              <span class="badge bg-success">DATE</span>
             </div>
             <div class="content col">
               <h6 class="title">Event Title</h6>
@@ -485,10 +485,10 @@
                 alt="Company Logo"
               />
             </div>
-            <div class="salary-type col-auto order-sm-3">
-              <span class="salary-range">$$$$Ticket Price</span>
+            <div class="ticket-type col-auto order-sm-3">
+              <span class="ticket-price">$$</span>
               <span class="time of event">7PM - 9PM</span>
-              <span class="badge bg-success">DATE NEED TO BE ADDED</span>
+              <span class="badge bg-success">DATE</span>
             </div>
             <div class="content col">
               <h6 class="title">Event Title</h6>
@@ -510,10 +510,10 @@
                 alt="Company Logo"
               />
             </div>
-            <div class="salary-type col-auto order-sm-3">
-              <span class="salary-range">$$$$Ticket Price</span>
+            <div class="ticket-type col-auto order-sm-3">
+              <span class="ticket-price">$$</span>
               <span class="time of event">7PM - 9PM</span>
-              <span class="badge bg-success">DATE NEED TO BE ADDED</span>
+              <span class="badge bg-success">DATE</span>
             </div>
             <div class="content col">
               <h6 class="title">Event Title</h6>
@@ -535,8 +535,8 @@
                 alt="Company Logo"
               />
             </div>
-            <div class="salary-type col-auto order-sm-3">
-              <span class="salary-range">$$$$Ticket Price</span>
+            <div class="ticket-type col-auto order-sm-3">
+              <span class="ticket-price">$$$$Ticket Price</span>
               <span class="time of event">7PM - 9PM</span>
               <span class="badge bg-success">DATE NEED TO BE ADDED</span>
             </div>
@@ -1014,5 +1014,44 @@
 
     <!-- Main Activation JS -->
     <script src="assets/js/main.js"></script>
+
+    <script>
+      const getEvents = async () => {
+        const res = await fetch("/events.json");
+        const json = await res.json();
+
+        let html = "";
+
+        for (const event of json) {
+          html += `<a href="event-single.html?id=${event.id}" class="event-list row">
+            <div class="company-logo col-auto">
+              <img
+                src="${event.logo}"
+                alt="Company Logo"
+              />
+            </div>
+            <div class="ticket-type col-auto order-sm-3">
+              <span class="ticket-price">${event.price}</span>
+              <span class="time of event">${event.time}</span>
+              <span class="badge bg-success">${event.date}</span>
+            </div>
+            <div class="content col">
+              <h6 class="title">${event.title}</h6>
+              <ul class="meta">
+                <li><strong class="text-primary">${event.tagline}</strong></li>
+                <li>
+                  <i class="fa fa-map-marker"></i> ${event.location}
+                  <p class="description">${event.description}</p>
+                </li>
+              </ul>
+            </div>
+          </a>`;
+        }
+
+        document.getElementById("event-list").innerHTML = html;
+      };
+
+      getEvents();
+    </script>
   </body>
 </html>
