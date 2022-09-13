@@ -23,7 +23,6 @@
     "logo": "assets/images/companies/company-1.png",
     "href": "http:ariellouise.me"
   },
-
   {
     "id": "3",
     "title": "This is Your Event Title",
@@ -36,7 +35,6 @@
     "logo": "assets/images/companies/company-1.png",
     "href": "http://ariellouise.me"
   },
-
   {
     "id": "4",
     "title": "This is Your Event Title",
@@ -48,18 +46,18 @@
     "price": "$10",
     "logo": "assets/images/companies/company-1.png",
     "href": "http://ariellouise.me"
-  },
-
-  {
-    "id": "5",
-    "title": "This is Your Event Title",
-    "tagline": "This is where you mini title goes",
-    "location": "Utica NY",
-    "time": "5pm - 8pm",
-    "date": "Feb 30th, 2022",
-    "description": "SUCK MY NUTS!!!",
-    "price": "$10",
-    "logo": "assets/images/companies/company-1.png",
-    "href": "http://ariellouise.me"
   }
+
+  // {
+  //   "id": "5",
+  //   "title": "This is Your Event Title",
+  //   "tagline": "This is where you mini title goes",
+  //   "location": "Utica NY",
+  //   "time": "5pm - 8pm",
+  //   "date": "Feb 30th, 2022",
+  //   "description": "SUCK MY NUTS!!!",
+  //   "price": "$10",
+  //   "logo": "assets/images/companies/company-1.png",
+  //   "href": "http://ariellouise.me"
+  // }
 ]
