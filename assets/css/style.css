@@ -3486,3 +3486,9 @@ body.offcanvas-open {
 .logo {
   max-width: 150px;
 }
+
+.responsive-image {
+  padding-top: 100px;
+  width: 100%;
+  height: auto;
+}
