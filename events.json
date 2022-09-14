@@ -1,15 +1,15 @@
 [
   {
     "id": "1",
-    "title": "This is Your Event Title",
+    "title": "Bring The Rock Back To Rome",
     "tagline": "This is where you mini title goes",
-    "location": "Utica NY",
-    "time": "5pm - 8pm",
-    "date": "Feb 30th, 2022",
+    "location": "1188 Erie Blvd W, Rome, NY 13440",
+    "time": "7pm - 11pm",
+    "date": "Sept 24th, 2022",
     "description": "This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be. This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be.",
     "price": "$10",
     "logo": "assets/images/companies/company-1.png",
-    "href": "http://ariellouise.me"
+    "href": "https://www.3rdshiftgroup.com/event-details/bring-the-rock-back-to-rome"
   },
   {
     "id": "2",
