@@ -409,9 +409,18 @@
                   <textarea id="eventDescription" rows="5"></textarea>
                 </div>
                 <div class="col-12 mb-3">
-                  <button type="submit" class="btn btn-primary px-5">
+                  <label for="email">Email Address to contact you</label>
+                  <textarea id="email" rows="1"></textarea>
+                </div>
+                <div class="col-12 mb-3">
+                  <!-- <button type="submit" class="btn btn-primary px-5">
                     Post event
-                  </button>
+                  </button> -->
+                  <form
+                    action="https://mailthis.to/joshua@galaxymediapartners.com"
+                    method="POST"></form>
+                    <input type="submit" value="Send Email" />
+                  </form>
                 </div>
               </div>
               <div class="row"></div>
