@@ -1,51 +1,28 @@
 [
   {
     "id": "1",
-    "title": "This is Your Event Title",
-    "tagline": "This is where you mini title goes",
-    "location": "Utica NY",
-    "time": "5pm - 8pm",
-    "date": "Feb 30th, 2022",
-    "description": "This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be. This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be.",
+    "title": "Bring The Rock Back To Rome",
+    "tagline": "Presented by 3rd Shift Evetns",
+    "location": "1188 Erie Blvd W, Rome, NY 13440",
+    "time": "7pm - 11pm",
+    "date": "Sept 24th, 2022",
+    "description": "",
     "price": "$10",
     "logo": "assets/images/companies/company-1.png",
-    "href": "http://ariellouise.me"
+    "href": "https://www.3rdshiftgroup.com/event-details/bring-the-rock-back-to-rome"
   },
   {
     "id": "2",
-    "title": "This is another Event. This is number 2",
-    "tagline": "This is a subtitle or whatever",
-    "location": "437 Park Drive Manor Rome Ny",
-    "time": "1pm - 2pm",
-    "date": "Feb 1st, 2022",
-    "description": "This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be. This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be.",
+    "title": "Barbie VS Bratz Party",
+    "tagline": "Hosted by Deluzional Desserts",
+    "location": "1188 Erie Blvd W, Rome, NY 13440",
+    "time": "8pm - 11:50pm",
+    "date": "October 8th, 2022",
+    "description": "",
     "price": "$30",
     "logo": "assets/images/companies/company-1.png",
-    "href": "http:ariellouise.me"
-  },
-
-  {
-    "id": "3",
-    "title": "This is Your Event Title",
-    "tagline": "This is where you mini title goes",
-    "location": "Utica NY",
-    "time": "5pm - 8pm",
-    "date": "Feb 30th, 2022",
-    "description": "This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be. This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be.",
-    "price": "$10",
-    "logo": "assets/images/companies/company-1.png",
-    "href": "http://google.com"
-  },
-  {
-    "id": "4",
-    "title": "Josh's test import",
-    "tagline": "This is where you mini title goes",
-    "location": "Utica NY",
-    "time": "5pm - 8pm",
-    "date": "Feb 30th, 2022",
-    "description": "This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be. This is the description here. This is where this will give details of the event in context. Here is the description of where to get tickets, who the event is for, what pertinent information needs to be.",
-    "price": "$10",
-    "logo": "assets/images/companies/company-1.png",
-    "href": "http://google.com"
+    "href": "https://www.3rdshiftgroup.com/event-details/barbie-vs-bratz-party-hosted-by-deluzional-desserts"
   }
+
+  
 ]
