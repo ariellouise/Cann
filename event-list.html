@@ -535,16 +535,13 @@
     <script src="assets/js/plugins/jquery.scrollUp.min.js"></script>
 
     <!-- Main Activation JS -->
-    <script src="assets/js/main.js"></script>
     <script>
       const getEvents = async () => {
         const res = await fetch("/events.json");
         const json = await res.json();
-
-        let html = "";
-
         for (const event of json) {
-          html += `<a href="event-single.html?id=${event.id}" class="event-list row">
+        let html = "";
+        html += `<a href="event-single.html?id=${event.id}" class="event-list row">
             <div class="company-logo col-auto">
               <img
                 src="${event.logo}"
