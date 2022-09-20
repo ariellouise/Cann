@@ -217,10 +217,10 @@
                   </ul>
                 </div>
               </a>
-              <!-- event List Start -->
+              event List Start -->
 
             <!-- Pagination Start -->
-            <!-- <ul class="pagination pagination-center mt-5">
+            <ul class="pagination pagination-center mt-5">
               <li class="page-item">
                 <a class="page-link" href="#"
                   ><i class="fa fa-angle-left"></i
@@ -237,26 +237,26 @@
                   ><i class="fa fa-angle-right"></i
                 ></a>
               </li>
-            </ul> -->
+            </ul>
             <!-- Pagination End -->
           </div>
 
           <!-- event Sidebar Wrap Start -->
-          <!-- <div class="col-lg-4 col-12 mb-5">
+          <div class="col-lg-4 col-12 mb-5">
             <div class="sidebar-wrap">
                Sidebar (Search) Start -->
-              <!-- <div class="sidebar-widget">
+              <div class="sidebar-widget">
                 <div class="inner">
                   <h6 class="title">Search Keywords</h6>
                   <form action="#">
                     <input type="text" placeholder="e.g. web design" />
                   </form>
                 </div>
-              </div> --> 
+              </div> 
               <!-- Sidebar (Search) End -->
 
               <!-- Sidebar (Category) Start -->
-              <!-- <div class="sidebar-widget">
+              <div class="sidebar-widget">
                 <div class="inner">
                   <h6 class="title">Category</h6>
                   <form action="#">
@@ -270,22 +270,22 @@
                     </select>
                   </form>
                 </div>
-              </div> -->
+              </div> 
               <!-- Sidebar (Category) End -->
 
               <!-- Sidebar (Location) Start -->
-              <!-- <div class="sidebar-widget">
+              <div class="sidebar-widget">
                 <div class="inner">
                   <h6 class="title">Location</h6>
                   <form action="#">
                     <input type="text" placeholder="Location" />
                   </form>
                 </div>
-              </div> -->
+              </div>
               <!-- Sidebar (Location) End -->
 
               <!-- Sidebar (Salary Range) Start -->
-              <!-- <div class="sidebar-widget">
+              <div class="sidebar-widget">
                 <div class="inner">
                   <h6 class="title">Ticket Price</h6>
                   <form action="#">
@@ -298,12 +298,12 @@
                     />
                   </form>
                 </div>
-              </div> -->
+              </div>
               <!-- Sidebar (Salary Range) End -->
 
             
               <!-- Sidebar (Date Posted) Start -->
-              <!-- <div class="sidebar-widget">
+               <div class="sidebar-widget">
                 <div class="inner">
                   <h6 class="title">Date Posted</h6>
                   <form action="#" class="mb-n1">
@@ -375,13 +375,13 @@
                     </div>
                   </form>
                 </div>
-              </div> -->
+              </div>
               <!-- Sidebar (Date Posted) End -->
 
              
             </div>
           </div>
-          <!-- event Sidebar Wrap End -->
+          <!--event Sidebar Wrap End -->
         </div>
       </div>
     </div>
@@ -536,5 +536,43 @@
 
     <!-- Main Activation JS -->
     <script src="assets/js/main.js"></script>
+    <script>
+      const getEvents = async () => {
+        const res = await fetch("/events.json");
+        const json = await res.json();
+
+        let html = "";
+
+        for (const event of json) {
+          html += `<a href="event-single.html?id=${event.id}" class="event-list row">
+            <div class="company-logo col-auto">
+              <img
+                src="${event.logo}"
+                alt="Company Logo"
+              />
+            </div>
+            <div class="ticket-type col-auto order-sm-3">
+              <span class="ticket-price">${event.price}</span>
+              <span class="time of event">${event.time}</span>
+              <span class="badge bg-success">${event.date}</span>
+            </div>
+            <div class="content col">
+              <h6 class="title">${event.title}</h6>
+              <ul class="meta">
+                <li><strong class="text-primary">${event.tagline}</strong></li>
+                <li>
+                  <i class="fa fa-map-marker"></i> ${event.location}
+                  <p class="description">${event.description}</p>
+                </li>
+              </ul>
+            </div>
+          </a>`;
+        }
+
+        document.getElementById("event-list").innerHTML = html;
+      };
+
+      getEvents();
+    </script>
   </body>
 </html>
