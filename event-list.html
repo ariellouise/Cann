@@ -167,7 +167,8 @@
             <!-- event List Toolbar End -->
 
             <!-- event List Wrap Start -->
-            <div class="event-list-wrap">
+            <div class="event-list-wrap" id="event-list">
+
               <!-- event List Start -->
               
               <a href="event-single.html" class="event-list row">
@@ -540,8 +541,11 @@
       const getEvents = async () => {
         const res = await fetch("/events.json");
         const json = await res.json();
-        for (const event of json) {
         let html = "";
+        for (const event of json) 
+        
+        {
+
         html += `<a href="event-single.html?id=${event.id}" class="event-list row">
             <div class="company-logo col-auto">
               <img
