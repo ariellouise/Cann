@@ -3426,6 +3426,7 @@ body.offcanvas-open {
   margin: 0;
   padding-left: 0;
   list-style: none;
+  min-height: auto;
 }
 
 .footer-widget-link ul li + li {
@@ -3468,6 +3469,7 @@ body.offcanvas-open {
 .footer-bottom-section {
   padding: 20px 0;
   background-color: #000000;
+  height: fit-content;
 }
 
 /* Footer Copyright */
