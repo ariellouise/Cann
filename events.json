@@ -1,26 +1,15 @@
 [
   {
     "id": "1",
-    "title": "Bring The Rock Back To Rome",
-    "tagline": "Presented by 3rd Shift Events",
-    "location": "1188 Erie Blvd W, Rome, NY 13440",
-    "time": "7pm - 11pm",
-    "date": "Sept 24th, 2022",
-    "description": "",
+    "title": "Business of Cannabis: New York",
+    "tagline": "November 2022",
+    "location": "New York Academy of Medicine 1216 5th Avenue New York, NY 10029",
+    "time": "9am - 5pm",
+    "date": "Thu, 3 November 2022",
+    "description": "Business of Cannabis: New York brings the global cannabis industry together for exclusive networking, talks and presentations.",
     "price": "$10",
     "logo": "assets/images/companies/company-1.png",
-    "href": "https://www.3rdshiftgroup.com/event-details/bring-the-rock-back-to-rome"
+    "href": "https://www.eventbrite.com.au/e/business-of-cannabis-new-york-november-2022-tickets-276490188597?aff=ebdssbdestsearch&keep_tld=1"
   },
-  {
-    "id": "2",
-    "title": "Barbie VS Bratz Party",
-    "tagline": "Hosted by Deluzional Desserts",
-    "location": "1188 Erie Blvd W, Rome, NY 13440",
-    "time": "8pm - 11:50pm",
-    "date": "October 8th, 2022",
-    "description": "",
-    "price": "$30",
-    "logo": "assets/images/companies/company-1.png",
-    "href": "https://www.3rdshiftgroup.com/event-details/barbie-vs-bratz-party-hosted-by-deluzional-desserts"
-  }
+  
 ]
